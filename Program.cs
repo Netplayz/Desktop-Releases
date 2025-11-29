@@ -51,7 +51,7 @@ public static class Program
             
             SentrySdk.Init(o =>
             {
-                o.Dsn = "https://a7cb549f37e9493b9e5a3ad3ef144aa1@o968027.ingest.sentry.io/4505436171862016";
+                o.Dsn = "https://42b71650a2c1ae3efdf50b0883cf359f@o4510448999792640.ingest.us.sentry.io/4510449003003904";
                 o.Debug = false;
                 o.EnableTracing = true;
                 o.IsGlobalModeEnabled = true;
@@ -87,8 +87,8 @@ public static class Program
                         {
                             new()
                             {
-                                Label = "ERM Website",
-                                Url = "https://www.ermbot.xyz"
+                                Label = "ERM CE Website",
+                                Url = "ermce.hueymcspewy.online/"
                             }
                     }   
                     });
@@ -128,4 +128,5 @@ public static class Program
             .LogToTrace()
             .UseReactiveUI();
     }
+
 }
